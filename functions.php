@@ -1,6 +1,6 @@
 <?php
 
-function skeletoing_op_load_styles() {
+function skeletoing_load_styles() {
     wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.min.css', '1' );
 	wp_enqueue_style( 'pak-operadores-css', get_stylesheet_uri(), '2', array('normalize') );
 }
